@@ -1,0 +1,6 @@
+CREATE TABLE asset (
+    id   BIGSERIAL    PRIMARY KEY,
+    code VARCHAR(50)  NOT NULL UNIQUE,
+    name VARCHAR(255) NOT NULL,
+    type VARCHAR(10)  NOT NULL CHECK (type IN ('GOLD', 'OIL', 'STOCK'))
+);
