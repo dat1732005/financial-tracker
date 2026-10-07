@@ -1,6 +1,10 @@
----
-trigger: always_on
----
+\---
+
+trigger: always\_on
+
+\---
+
+
 
 \# Quy tac cho project financial-tracker
 
@@ -24,7 +28,11 @@ trigger: always_on
 
 \- Neu khong chac mot quyet dinh thiet ke, hoi lai thay vi tu quyet.
 
-- Viết comment tiếng Việt trong code cho những dòng/đoạn quan trọng: annotation
-  lạ (vd @ManyToOne, @Transactional), quyết định thiết kế (vd vì sao dùng Instant
-  thay vì LocalDateTime), và logic nghiệp vụ không hiển nhiên. Không comment những
-  dòng đã rõ nghĩa qua tên biến/method.
+\- Viet comment tieng Viet trong code cho nhung dong/doan quan trong: annotation
+
+&#x20; la (vd @ManyToOne, @Transactional), quyet dinh thiet ke (vd vi sao dung Instant
+
+&#x20; thay vi LocalDateTime), va logic nghiep vu khong hien nhien. Khong comment nhung
+
+&#x20; dong da ro nghia qua ten bien/method.
+
